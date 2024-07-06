@@ -1,6 +1,17 @@
+#principal
+{
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: row;
+}
 #top
 {
-
+	background: url('FotoPrincipal.jpg');
+	display: flex;
+	text-align: center;
 }
 #middle
 {
@@ -20,5 +31,5 @@
 }
 #card
 {
-	
+
 }
