@@ -5,17 +5,27 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	flex-direction: row;
+	flex-direction: column;
+	background-color: lightcoral;
 }
 #top
 {
-	background: url('FotoPrincipal.jpg');
+	background-image: url('Imagens/FotoPrincipal.jpg');
 	display: flex;
 	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 700px;
+	height: 500px;
+	background-size: cover;
+	border-radius: 10px;
+	margin-top: 30px;
 }
 #middle
 {
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 #bottom
 {
@@ -23,7 +33,13 @@
 }
 #titulo_visita
 {
-
+	margin-left: auto;
+	margin-right: auto;
+	background-color: darkblue;
+	color: white;
+	padding: 10px 7px 10px 7px;
+	font-size: 25px;
+	font-weight: bold;
 }
 .ponto_turistico
 {
@@ -32,4 +48,16 @@
 #card
 {
 
+}
+.descricao_cidade
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: darkblue;
+	color: white;
+	padding: 10px 7px 10px 7px;
+}
+.imagem_ponto_turistico
+{
+	width: 200px;
 }
