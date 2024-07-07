@@ -51,7 +51,11 @@
 }
 #card
 {
-
+	display: flex;
+	flex-direction: row;
+	background-color: lightyellow;
+	justify-content: space-around;
+	gap: 10px;
 }
 .descricao_cidade
 {
@@ -89,4 +93,16 @@
 {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+#imagem_guia
+{
+	width: 300px;
+	padding: 20px;	
+}
+.texto_guia
+{
+	background-color: lightskyblue;
+	width: 300px;
+	padding: 20px;
+	margin: auto;
 }
