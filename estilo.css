@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+:root
+{
+	--Fonte: "Bodoni Moda SC", serif;
+}
 #principal
 {
 	margin: 0;
@@ -6,8 +12,7 @@
 	justify-content: center;
 	text-align: center;
 	flex-direction: column;
-	background-color: lightcoral;
-	gap: 30px;
+	gap: 20px;
 }
 #top
 {
@@ -16,7 +21,7 @@
 	text-align: center;
 	justify-content: center;
 	flex-direction: column;
-	width: 700px;
+	width: 100%;
 	height: 500px;
 	background-size: cover;
 	border-radius: 10px;
@@ -27,9 +32,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	background-color: lightgreen;
+	background-color: #E6B9A6;
 	padding: 20px;
 	gap: 30px;
+	border-radius: 20px;
 }
 #bottom
 {
@@ -39,11 +45,13 @@
 {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: darkblue;
+	background-color: rgb(19, 24, 66, 0.8);
 	color: white;
-	padding: 10px 7px 10px 7px;
+	padding: 10px;
 	font-size: 25px;
 	font-weight: bold;
+	font-family: var(--Fonte); 
+	border-radius: 10px;
 }
 .ponto_turistico
 {
@@ -61,15 +69,18 @@
 {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: darkblue;
+	background-color: rgb(230, 131, 105, 0.8);
 	color: white;
 	padding: 10px 7px 10px 7px;
 	width: 320px;
+	font-family: var(--Fonte);
+	font-size: 20px;
+	border-radius: 10px;
 }
 .imagem_ponto_turistico
 {
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 	background-size: cover;
 }
@@ -77,14 +88,12 @@
 {
 	display: flex;
 	flex-direction: row;
-	background-color: lightgrey;
 	padding: 20px;
-	gap: 5px;
+	gap: 40px;
 
 }
 #middle_first
 {
-	background-color: lightcyan;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px 8px 5px 8px;
@@ -93,6 +102,9 @@
 {
 	margin-top: 30px;
 	margin-bottom: 30px;
+	font-family: var(--Fonte);
+	font-weight: 900;
+	font-size: 20px;
 }
 #imagem_guia
 {
@@ -105,4 +117,15 @@
 	width: 300px;
 	padding: 20px;
 	margin: auto;
+}
+h3
+{
+	font-size: 30px;
+	font-family: var(--Fonte);
+	font-weight: 900;
+}
+.font_light
+{
+	font-family: var(--Fonte);
+	font-size: 18px;
 }
