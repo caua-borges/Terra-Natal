@@ -7,6 +7,7 @@
 	text-align: center;
 	flex-direction: column;
 	background-color: lightcoral;
+	gap: 30px;
 }
 #top
 {
@@ -24,8 +25,11 @@
 #middle
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
+	background-color: lightgreen;
+	padding: 20px;
+	gap: 30px;
 }
 #bottom
 {
@@ -56,8 +60,33 @@
 	background-color: darkblue;
 	color: white;
 	padding: 10px 7px 10px 7px;
+	width: 320px;
 }
 .imagem_ponto_turistico
 {
-	width: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-size: cover;
+}
+#middle_second
+{
+	display: flex;
+	flex-direction: row;
+	background-color: lightgrey;
+	padding: 20px;
+	gap: 5px;
+
+}
+#middle_first
+{
+	background-color: lightcyan;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 8px 5px 8px;
+}
+.fonte_bold
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
